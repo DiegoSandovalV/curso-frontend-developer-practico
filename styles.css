@@ -71,6 +71,14 @@
     cursor: pointer;
   }
 
+  .deleteProduct {
+    cursor: pointer;
+  }
+
+  .deleteProduct:hover {
+    filter: invert(10%) sepia(91%) saturate(7482%) hue-rotate(2deg) brightness(112%) contrast(110%);
+  }
+
   .navbar-shopping-cart div {
     width: 16px;
     height: 16px;
@@ -168,8 +176,20 @@ aside {
   font-size: var(--md);
   font-weight: bold;
   height: 50px;
+  margin-bottom: 15px;
 }
 
+.primary-button:hover {
+  background-color: rgb(13, 164, 53);
+}
+
+.arrow{
+  cursor: pointer;
+}
+
+.arrow:hover{
+  filter: invert(62%) sepia(42%) saturate(5965%) hue-rotate(84deg) brightness(122%) contrast(122%);
+}
 /*Products*/
 
 .cards-container {
@@ -279,6 +299,14 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.add-to-cart-button-unfocused {
+  cursor: pointer;
+}
+.add-to-cart-button:hover {
+  filter: invert(62%) sepia(42%) saturate(5965%) hue-rotate(84deg) brightness(122%) contrast(122%);
 }
 
 

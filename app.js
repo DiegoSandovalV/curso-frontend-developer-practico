@@ -129,6 +129,7 @@ productList.push({
   
     const productImgCart = document.createElement('img');
     productImgCart.setAttribute('src', './icons/bt_add_to_cart.svg')
+    productImgCart.setAttribute('class', 'add-to-cart-button-unfocused')
   
     productInfoFigure.appendChild(productImgCart)
   
@@ -141,4 +142,6 @@ productList.push({
  }
 
 renderProducts(productList);
+
+
 
